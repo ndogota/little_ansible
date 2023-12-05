@@ -1,0 +1,16 @@
+hosts:
+    vm1:
+        ssh_address: 192.168.64.25
+        ssh_port: 22
+        ssh_user: user
+        ssh_password: user
+    vm2:
+        ssh_address: 192.168.64.26
+        ssh_port: 22
+        ssh_user: user
+        ssh_password: user
+    vm3:
+        ssh_address: 192.168.64.27
+        ssh_port: 22
+        ssh_user: user
+        ssh_password: user

@@ -1,0 +1,13 @@
+- module: apt
+  params:
+    name: tree
+    state: present
+- module: command
+  params:
+    command: |
+      rm -rf /var/www/public/
+- module: copy
+  params:
+    src: ./public
+    dest: /var/www/public
+    backup: false

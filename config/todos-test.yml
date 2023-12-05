@@ -1,0 +1,4 @@
+- module: apt
+  params:
+    name: tree
+    state: present
